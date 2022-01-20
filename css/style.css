@@ -147,8 +147,7 @@ ul li a{
 /* responsive code  */
 
 @media (max-width : 990px) {
-    .menu-card{
-       
+    .menu-card{  
         width: 100%;
     }
     .bottom-image{
@@ -162,6 +161,16 @@ ul li a{
         width: 300px;
     }
     .navbar-brand img{
-        width: 180px;
+        width: 100px;
+    }
+    .hero .hero-content h1{
+        font-size: 2.5rem;
+        
+    }
+}
+@media (max-width : 402px) {
+    .hero .hero-content h1{
+        font-size: 3rem;
+        
     }
 }
